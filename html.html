@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+  <div id="app">
+    {{color}}
+    <theGame></theGame>
+  </div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
+
+<script>
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
+import Vue from 'vue'
+import App from './App'
+Vue.config.productionTip = false
+
+/* eslint-disable no-new */
+ var vue1 = new Vue({
+  el: '#app',
+render : h => h(App),
+
+})
+
+
+</script>
